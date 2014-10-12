@@ -1,7 +1,7 @@
 Mini-Curso: Google Maps API
 ============================
 
-##  INTRODUÇÃO AO DESENVOLVIMENTO DE APLICAÇÕES WEB COM O GOOGLE MAPS API
+### INTRODUÇÃO AO DESENVOLVIMENTO DE APLICAÇÕES WEB COM O GOOGLE MAPS API
 
 Curso desenvolvido para a Semana de Tecnologia da FATEC JAHU.
 
