@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	
+	<!-- Estilo CSS -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	
+    <!-- Maps API Javascript -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	
+  </head>
+  <body>  
+	<div id="container">	
+		<h1>Demo 3: Markers Automáticos</h1>
+		
+		<section id="campos">
+			<label for="txtLat">Latitude:</label>
+			<input type="text" name="txtLat" id="txtLat" />
+			
+			<label for="txtLon">Longitude:</label>
+			<input type="text" name="txtLon" id="txtLon" />
+			
+			<input type="button" value="Add" id="btnEnviar" />
+			<input type="button" value="Limpar" id="btnLimpar" />
+		</section>
+		
+		<div id="mapa"></div>	
+	</div>    
+  </body>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/mapa.js"></script>
+</html>

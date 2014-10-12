@@ -1,0 +1,28 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #5B5B5B;
+}
+
+#container{
+	width: 90%; 
+	margin: 1% auto;
+	overflow: hidden;
+}
+
+h1 { 
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 28px;
+	text-align: center;
+	font-weight:normal;
+	color: #FFF;  
+	margin-bottom: 20px; 
+	letter-spacing: -0.5px
+}
+
+#mapa{ 
+	width: 70%px;
+	height: 500px;
+	border: 10px solid #FFF;
+	margin-bottom: 20px;
+}

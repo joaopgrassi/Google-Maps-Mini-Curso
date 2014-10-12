@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	
+	<!-- Estilo da pagina -->
+	<style type="text/css">
+		html { height: 100% }
+		body { height: 100%; margin: 0; padding: 0 }
+		#mapa { height:100%; }
+    </style>
+	
+    <!-- Maps API Javascript -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	
+	<!-- Inicializa o mapa -->
+    <script type="text/javascript">
+	
+      function initialize() {
+	  
+		//Opçoes do mapa
+        var mapOptions = {
+          center: new google.maps.LatLng(-17, -50), //Aonde sera centralizado
+          zoom: 5, //nivel de zoom
+          mapTypeId: google.maps.MapTypeId.TERRAIN //Tipo de Mapa
+        };
+		
+        var map = new google.maps.Map(document.getElementById("mapa"),
+            mapOptions);
+      }
+    </script>
+	
+  </head>
+	<body onload="initialize()">  		
+		<!-- Container do Mapa -->
+		<div id="mapa"></div>    
+	</body>
+</html>

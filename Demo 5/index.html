@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	
+	<!-- Estilo CSS -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	
+    <!-- Maps API Javascript -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	
+	<!-- MarkerCluster-->
+	<script type="text/javascript" src="js/markerclusterer_compiled.js"></script>
+	
+	
+  </head>
+  <body>  
+	<div id="container">	
+		<h1>Demo 5: Um Mapa Personalizado</h1>
+		
+		<section id="campos">
+			<label for="txtLat">Latitude:</label>
+			<input type="text" name="txtLat" id="txtLat" />
+			
+			<label for="txtLon">Longitude:</label>
+			<input type="text" name="txtLon" id="txtLon" />
+			
+			<input type="button" value="Add" id="btnEnviar" />
+			<input type="button" value="Limpar" id="btnLimpar" />
+		</section>
+		
+		<div id="mapa"></div>	
+	</div>
+	
+	<!-- Template InfoWindow dinâmico -->
+	<div class="info-wrapper hidden">
+		<div class="infowindow2">
+			<h3>Janela do Marcador</h3>
+			<h4>Id dispositivo: {id} </h4>
+			<h4>Tipo de dispositivo: {dispositivo}</h4>
+		</div>
+	</div>
+	
+  </body>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/mapa.js"></script>
+</html>
