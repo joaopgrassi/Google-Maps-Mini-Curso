@@ -7,7 +7,7 @@ Desktop.ini
 
 #Doc Files (MSWORD)
 *.docx
-
+*.tmp
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
