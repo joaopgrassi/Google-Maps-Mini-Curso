@@ -128,6 +128,7 @@ $(function () {
 				
 				var valor = marker.id % 2 == 0;
 				
+				//title do icone
 				if(valor)
 					janela2 = janela2.replace("{dispositivo}", 'Móvel');
 				else
